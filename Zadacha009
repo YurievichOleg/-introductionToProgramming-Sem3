@@ -1,0 +1,4 @@
+Console.WriteLine("Написать трёхзначное число: ");
+string text = Console.ReadLine();
+Console.WriteLine();
+Console.WriteLine($"Последняя цифра - {text[2]}");
