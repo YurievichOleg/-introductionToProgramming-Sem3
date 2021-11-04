@@ -1,0 +1,4 @@
+Console.WriteLine("Написать трёхзначное число: ");
+string text = Console.ReadLine();
+Console.WriteLine();
+Console.WriteLine($"Итог - {text[0]}{text[2]}");
